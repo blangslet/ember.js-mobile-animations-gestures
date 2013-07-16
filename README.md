@@ -1,6 +1,6 @@
 # Ember.js - Mobile Animations and Gestures demo app
 
-[Check out the iPhone demo on Heroku](http://blangslet.com/ember-js-mobile-animations-gestures)
+[Check out the iPhone demo on Heroku](http://ember-mobile-animations.herokuapp.com)
 
 [Check out the blog article/tutorial](http://blangslet.com/ember-js-mobile-animations-gestures)
 

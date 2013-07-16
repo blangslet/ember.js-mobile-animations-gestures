@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 
 gem 'rails', '3.2.13'
-
-
-gem 'jquery-rails', '2.3.0'
+gem 'puma'
 gem 'active_model_serializers'
 gem 'ember-rails'
+
+
 
 
 group :assets do
@@ -28,3 +28,4 @@ group :production do
   gem 'pg'
 end
 
+gem 'jquery-rails', '2.3.0'
