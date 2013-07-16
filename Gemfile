@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 
-gem 'sqlite3'
 gem 'jquery-rails', '2.3.0'
 gem 'active_model_serializers'
 gem 'ember-rails'
@@ -18,5 +17,13 @@ group :assets do
   gem 'handlebars-source', '1.0.0.rc4'
   gem 'coffee-rails'
   gem 'font-awesome-rails'
+end
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
