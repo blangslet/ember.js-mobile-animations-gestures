@@ -1,0 +1,20 @@
+header#header.navbar
+  a.navbar-brand AnimGest
+
+
+section#content
+  .main
+    .row
+      .col
+        .clearfix
+          h4
+            i.icon-th-list &nbsp;
+            | Posts
+        .row-fluid
+            .list-group.m-b-small
+              each post in controller
+                .list-group-item click="goToPost post"
+                  i.icon-chevron-right style="float:right"
+                  i.icon-pencil &nbsp;
+                  = post.title
+

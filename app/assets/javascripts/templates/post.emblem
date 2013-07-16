@@ -1,0 +1,23 @@
+header#header.navbar
+  a click="backToPosts"
+      button.btn.btn-small.btn-white style="float:left;margin-top:10px;"
+        i.icon-chevron-sign-left
+        | Back
+  a.navbar-brand AnimGest
+
+section#content
+  .main
+    .row
+      .col
+        .clearfix
+          h4
+            i.icon-pencil &nbsp;
+            = title
+          h5
+            = body
+          h4
+            | Comments
+          ul
+          each comment in comments
+            li
+              = comment.text
