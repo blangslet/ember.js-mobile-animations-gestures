@@ -2,7 +2,7 @@
 
 [Check out the iPhone demo on Heroku](http://ember-mobile-animations.herokuapp.com)
 
-[Check out the blog article/tutorial](http://blangslet.com/ember-js-mobile-animations-gestures)
+[Check out the blog article/tutorial](http://blangslet.com/post/55590279372/ember-js-mobile-animations-and-touch-gestures)
 
 ![Screen shot](https://raw.github.com/blangslet/ember.js-mobile-animations-gestures/master/doc/screen-shot.png)
 
