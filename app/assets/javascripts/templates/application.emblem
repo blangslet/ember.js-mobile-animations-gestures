@@ -2,10 +2,8 @@
   h3 Push Menu
   ul.nav.affix-top style="margin-top:50px;"
     li.menu-text click="goToPostsFromMenu"
-      a
-        | Posts
+      a Posts
     li.menu-text click="goToRealTimeGraph"
-      a
-        | Real Time Graph
+      a Real Time Graph
 
 = outlet
