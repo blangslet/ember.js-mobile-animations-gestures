@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require handlebars
+//= require vendor/jquery.sparkline.min
 //= require ember
 //= require ember-data
 //= require vendor/ember-animated-outlet
@@ -21,5 +22,18 @@
 //= require_self
 //= require app
 App = Ember.Application.create();
+
+App.normalizeTouchEvent = function(event) {
+    if (!event.touches) {
+        event.touches = event.originalEvent.touches;
+    }
+    if (!event.pageX) {
+        event.pageX = event.originalEvent.pageX;
+    }
+    if (!event.pageY) {
+        event.pageY = event.originalEvent.pageY;
+    }
+    return event;
+};
 
 //= require_tree .

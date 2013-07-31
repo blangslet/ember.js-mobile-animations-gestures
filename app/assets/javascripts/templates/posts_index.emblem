@@ -1,6 +1,7 @@
 header#header.navbar
-  a.navbar-brand AnimGest
-
+  button.btn.btn-link.pull-left.nav-toggle click="toggleMenu"
+    i.icon-reorder.icon-xlarge.text-default.white
+  a.navbar-brand.white AnimGest
 
 section#content
   .main

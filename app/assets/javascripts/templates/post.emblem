@@ -1,9 +1,9 @@
 header#header.navbar
   a click="backToPosts"
-      button.btn.btn-small.btn-white style="float:left;margin-top:10px;"
-        i.icon-chevron-sign-left
-        | Back
-  a.navbar-brand AnimGest
+    button.btn.btn-link.pull-left.white.header-btn
+      i.icon-chevron-sign-left
+      | Back
+  a.navbar-brand.white Post
 
 section#content
   .main

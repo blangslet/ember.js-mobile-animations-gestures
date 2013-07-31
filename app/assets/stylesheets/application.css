@@ -12,4 +12,5 @@
 *= require bootstrap
 *= require font-awesome
 *= require ember-animated-outlet
+*= require custom
  */

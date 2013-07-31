@@ -1,0 +1,12 @@
+header#header.navbar
+  button.btn.btn-link.pull-left.nav-toggle click="toggleMenu"
+    i.icon-reorder.icon-xlarge.text-default.white
+  a.navbar-brand.white Real Time Graph
+
+center.note
+  | Move Your Finger or Mouse Around Here
+
+center
+  = view App.SparklineView
+
+  = partial horribly_sad_brs

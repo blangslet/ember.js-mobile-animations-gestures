@@ -1,1 +1,11 @@
+.menu class=controller.menuVisible:visible
+  h3 Push Menu
+  ul.nav.affix-top style="margin-top:50px;"
+    li.menu-text click="goToPostsFromMenu"
+      a
+        | Posts
+    li.menu-text click="goToRealTimeGraph"
+      a
+        | Real Time Graph
+
 = outlet
