@@ -1,3 +1,3 @@
-App.Controller = Em.ArrayController.extend({
-  mouseDistance: 0,
+App.RealTimeGraphController = Em.ArrayController.extend({
+  mouseDistance: 0
 });
